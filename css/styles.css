@@ -2,59 +2,81 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;        
-    line-height: 24px;
-    letter-spacing: 2px;
-    color: #2E2F42; 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#434455;
     background-color: #FFFFFF;
 }
 a {text-decoration: none;}
 ul {list-style-type: none;}
+.link .button {cursor: pointer;}
+
 .logo {
+    color: #4d5ae5;    
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 3px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.logo .web {color: #4D5AE5;}
 .logo .studio {color: #2E2F42;}
-.link {cursor: pointer;}
-.top-line-menu {font-weight: 500;}
+
+.top-line-menu {
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
 .top-line-menu .link:hover {color:#404BBF;}
-.top-line-menu .link:active {color: #404BBF; text-decoration: underline;}
-.top-line-contacts {color: #434455;}
-.top-line-contacts .link:hover {color: #404BBF;}
+.top-line-menu .link:focus {color: #404BBF; text-decoration: underline;}
+.top-line-contacts {
+    color: #434455; 
+    font-style: normal; 
+    letter-spacing: 0.02em
+}
+.top-line-contacts .link:hover .link:focus {color: #404BBF;}
+
 .hero {
+    background-color: #2E2F42;
+}
+.hero-top {
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 2px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    background-color: #2E2F42;
 }
 .button {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 4px;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
-.button:active {background-color: #404BBF;}
-.feature {color: #434455;}
-.feature h3 {font-size: 20px; font-weight: 500;}
+.button:hover .button:focus {background-color: #404BBF;}
+
+.section2 {color: #434455;}
+.feature {
+    color: #2E2F42;
+    font-size: 20px; 
+    font-weight: 500;
+}
 .feature p {font-size: 16px; font-weight: 400;}
+
+.team {
+    background-color: #F4F4FD;
+}
 .team h2 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
 }
-.team h3 {
-    font-size: 20px;
-    font-weight: 500;
-}
-.team p {color: #434455;}
+.team ul {background-color: #FFFFFF;}
+
 .footer {color: #F4F4FD; background-color: #2E2F42;}
 .footer .studio {color: #F4F4FD;}
