@@ -23,19 +23,19 @@ ul {list-style-type: none;}
 .logo .studio {color: #2E2F42;}
 
 .top-line-menu {
-    color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+.top-line-menu .link {color: #2e2f42;}
 .top-line-menu .link:hover {color:#404BBF;}
 .top-line-menu .link:focus {color: #404BBF; text-decoration: underline;}
 .top-line-contacts {
-    color: #434455; 
     font-style: normal; 
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+.top-line-contacts .link {color: #434455; }
 .top-line-contacts .link:hover {color: #404BBF;}
 .top-line-contacts .link:focus {color: #404BBF;}
 
@@ -62,7 +62,7 @@ ul {list-style-type: none;}
 .button:hover {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
 
-.section2 {color: #434455;}
+.section1 {color: #434455;}
 .feature {
     color: #2E2F42;
     font-size: 20px; 
@@ -90,6 +90,16 @@ ul {list-style-type: none;}
 .team-list {background-color: #FFFFFF;}
 .team .feature {letter-spacing: 0.02em;}
 .team-p {font-size: 16px; line-height: 1.5;}
+
+.section3 {background-color: #F4F4FD;}
+.section3-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .footer {color: #F4F4FD; background-color: #2E2F42;}
 .footer .studio {color: #F4F4FD;}
