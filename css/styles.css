@@ -43,7 +43,6 @@ ul {list-style-type: none;}
     background-color: #2E2F42;
 }
 .hero-top {
-    font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -51,7 +50,6 @@ ul {list-style-type: none;}
     color: #FFFFFF;
 }
 .button {
-    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -64,13 +62,10 @@ ul {list-style-type: none;}
 
 .section1 {color: #434455;}
 .feature {
-    color: #2E2F42;
-    font-size: 20px; 
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 .hero-p {
-    font-size: 16px; 
     font-weight: 400;
     line-height: 1.5;
 }
@@ -84,8 +79,6 @@ ul {list-style-type: none;}
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
 }
 .team-list {background-color: #FFFFFF;}
 .team .feature {letter-spacing: 0.02em;}
@@ -93,6 +86,5 @@ ul {list-style-type: none;}
 
 .section3 {background-color: #F4F4FD;}
 
-.footer {color: #F4F4FD; background-color: #2E2F42;}
 .footer .studio {color: #F4F4FD;}
 .footer-p {line-height: 1.5}
