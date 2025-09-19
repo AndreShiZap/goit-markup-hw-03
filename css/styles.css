@@ -22,8 +22,7 @@ img {display: block;}
 .container { 
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;  
+    padding: 0 15px;
 }
 
 header {border-bottom: 1px solid #E7E9FC}
@@ -252,7 +251,7 @@ header .container {
     flex-direction: column;
 }
 
-.footer .logo {
+.logo-link {
     display: inline-block;
     margin-bottom: 16px;
 }
