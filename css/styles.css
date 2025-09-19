@@ -24,6 +24,12 @@ img {display: block;}
     margin: 0 auto;
     padding-left: 156px;
     padding-right: 156px;
+
+}
+
+header .container {
+    padding-left: 15px;
+    padding-right: 15px;    
 }
 
 header {border-bottom: 1px solid #E7E9FC}
@@ -35,7 +41,11 @@ header .container {
     justify-content: space-between; 
 }
 
-.link {cursor: pointer;}
+.link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    cursor: pointer;
+}
 
 .nav-top {
     display: flex;
@@ -62,20 +72,21 @@ header .container {
     line-height: 1.5;
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+    }
 
 .top-line-menu .link {color: #2e2f42;}
 .top-line-menu .link:hover {color:#404BBF;}
 .top-line-menu .link:focus {color: #404BBF; text-decoration: underline;}
 .top-line-contacts {
-    display: flex;
     font-style: normal; 
     letter-spacing: 0.02em;
     line-height: 1.5;
-    gap: 40px;
 }
+.menu-contact {
+    display: flex;
+    gap: 40px;    
+}
+
 .top-line-contacts .link {color: #434455; }
 .top-line-contacts .link:hover {color: #404BBF;}
 .top-line-contacts .link:focus {color: #404BBF;}
@@ -125,11 +136,15 @@ header .container {
 .button:hover {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
 
-.section1 {color: #434455;}
+.advantages {color: #434455;}
 
-.section1-ul {
+.advantages-ul {
     display: flex;
-    gap: 24px;
+    gap: 24px; 
+}
+
+.advant {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .feature {
@@ -170,14 +185,13 @@ header .container {
 .team-item {
     display: flex;
     flex-direction: column;
-    gap: 8px;
     text-align: center;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     padding-bottom: 32px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .item {
@@ -216,10 +230,6 @@ header .container {
     border-top: none;
 }
 
-.white .team-title {
-    margin-bottom: 8px;
-}
-
 .footer {
     color: #F4F4FD; 
     background-color: #2E2F42;
@@ -232,7 +242,7 @@ header .container {
     flex-direction: column;
 }
 
-.footer .logo {
+footer .logo {
     display: inline-block;
     margin-bottom: 16px;
 }
