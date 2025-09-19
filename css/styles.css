@@ -31,6 +31,8 @@ header .container {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between; 
 }
 
@@ -251,11 +253,14 @@ header .container {
     flex-direction: column;
 }
 
-.logo-link {
+.logo {
     display: inline-block;
-    margin-bottom: 16px;
 }
 
+.footer .logo {
+    margin-bottom: 16px;
+}
+    
 .footer .studio {color: #F4F4FD;}
 .footer-p {
     font-weight: 400;
